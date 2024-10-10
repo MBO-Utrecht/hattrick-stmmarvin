@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 6084278231543153262}
   - component: {fileID: 6084278231543153259}
   - component: {fileID: 6084278231543153269}
+  - component: {fileID: 6383043349175634814}
   m_Layer: 0
   m_Name: Hat
   m_TagString: Hat
@@ -339,3 +340,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
   ballValue: 1
+--- !u!114 &6383043349175634814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6084278231543153261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416aeb7da9a78e94d9940df8b12f27f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
